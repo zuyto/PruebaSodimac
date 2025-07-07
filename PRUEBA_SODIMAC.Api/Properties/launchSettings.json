@@ -1,0 +1,96 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Gerencia": "Gerencia De Tecnologia Logisitica",
+        "Celula": "Cadena Logistica",
+        "Aplicacion": "api-arq-limpia",
+        "Proyecto": "",
+        "WithOrigins": "*",
+        "SiKeyVault": "N",
+        "DBOci": "Si",
+        "PathWallet": "C://Users//PATC06//Documents//WALLET_GSPL_DEV_TUNEL",
+        "SwaggerMajorVersion": "1",
+        "SwaggerMinorVersion": "0",
+        "GESTION_PEDIDOS_NET": "Server=LAPTOP-KF792H7H;Database=GestionPedidos;Integrated Security=True;TrustServerCertificate=True;",
+        "SAAS": "https://mileniumcarga.com.co/Tms/blank_ws_homecenter/"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5025"
+    },
+    "https": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Gerencia": "Gerencia De Tecnologia Logisitica",
+        "Celula": "Cadena Logistica",
+        "Aplicacion": "api-arq-limpia",
+        "Proyecto": "",
+        "WithOrigins": "*",
+        "SiKeyVault": "N",
+        "DBOci": "Si",
+        "PathWallet": "C://Users//PATC06//Documents//WALLET_GSPL_DEV_TUNEL",
+        "SwaggerMajorVersion": "1",
+        "SwaggerMinorVersion": "0",
+        "GESTION_PEDIDOS_NET": "Server=LAPTOP-KF792H7H;Database=GestionPedidos;Integrated Security=True;TrustServerCertificate=True;",
+        "SAAS": "https://mileniumcarga.com.co/Tms/blank_ws_homecenter/"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7001;http://localhost:5025"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Gerencia": "Gerencia De Tecnologia Logisitica",
+        "Celula": "Cadena Logistica",
+        "Aplicacion": "api-arq-limpia",
+        "Proyecto": "",
+        "WithOrigins": "*",
+        "SiKeyVault": "N",
+        "DBOci": "Si",
+        "PathWallet": "C://Users//PATC06//Documents//WALLET_GSPL_DEV_TUNEL",
+        "SwaggerMajorVersion": "1",
+        "SwaggerMinorVersion": "0",
+        "GESTION_PEDIDOS_NET": "Server=LAPTOP-KF792H7H;Database=GestionPedidos;Integrated Security=True;TrustServerCertificate=True;",
+        "SAAS": "https://mileniumcarga.com.co/Tms/blank_ws_homecenter/"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_HTTPS_PORTS": "8081",
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "Gerencia": "Gerencia De Tecnologia Logisitica",
+        "Celula": "Cadena Logistica",
+        "Aplicacion": "api-arq-limpia",
+        "Proyecto": "",
+        "SwaggerMajorVersion": "1",
+        "SwaggerMinorVersion": "0",
+        "GESTION_PEDIDOS_NET": "Server=LAPTOP-KF792H7H;Database=GestionPedidos;Integrated Security=True;TrustServerCertificate=True;",
+        "SAAS": "https://mileniumcarga.com.co/Tms/blank_ws_homecenter/"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:27251",
+      "sslPort": 44375
+    }
+  }
+}
